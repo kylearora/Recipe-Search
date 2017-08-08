@@ -1,23 +1,90 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+}
+
+ .main {
+  background-color: #313131;
+  width: 915px;
+  height: 835px;
+  border-radius: 15px;
+  border: 3px solid white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 870px;
+  color: white;
+  font-family: noteworthy;
+  background: #313131;
+  padding-right:20px;
+  padding-left: 20px;
+  border-radius: 15px;
+}
+
 #inputBox {
-  height: 25px;
-  width: 200px;
-  border: 1px solid black;
-  margin-bottom: 5px;
+  height: 35px;
+  width: 250px;
+  border: 3px solid #76FF8E;
+  border-radius: 10px;
+  padding-left: 5px;
+  background: #313131;
+  color: white;
+  font-style: 14px;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 700px;
-  margin-top: 20px;
-  padding-top: 10px;
-  border-top: 1px solid black;
+  width: 870px;
+  height: 630px;
+  margin: 0px 0px 20px 0px;
+  padding: 18px 20px 43px 20px;
+  border: 3px solid white;
+  border-radius: 15px;
+  background: #76FF8E;
 }
 
 .recipe {
   width: 160px;
   height:160px;
-  border:1px solid black;
+  border:3px solid white;
   margin-top: 20px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  font-family: noteworthy;
+  color: #313131;
+}
+
+.infoTitle {
+ font-size: 10px;
+ text-decoration: none;
+}
+
+.infoPhoto{
+  height: 160px;
+  width: 160px;
+  border-radius: 10px;
+}
+
+.infoIngredients {
+  font-size: 8px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: -13px;
+  font-family: noteworthy;
+  color: white;
 }
