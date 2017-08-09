@@ -67,7 +67,7 @@ body {
   color: #313131;
 }
 
-.infoTitle {
+.infoTitle, a {
  font-size: 10px;
  text-decoration: none;
 }
